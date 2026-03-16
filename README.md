@@ -58,6 +58,8 @@ Create the following OUs:
 * Test-OU
 * Prod-OU
 
+   ![WhatsApp Image 2026-03-15 at 4 01 54 PM](https://github.com/user-attachments/assets/4701e452-1b3c-4149-9cb1-52c28cd98f38)
+
 ---
 
 ## 3. Create Member Accounts
@@ -77,6 +79,9 @@ Move accounts into their respective Organizational Units.
 ## 1. Deny EC2 Instance Creation in Dev Account
 
 This policy prevents developers from launching EC2 instances in the development environment to control infrastructure cost.
+
+![WhatsApp Image 2026-03-15 at 4 02 40 PM](https://github.com/user-attachments/assets/e447032f-9cc6-459f-9feb-a57102fcc697)
+
 
 ### Policy JSON
 
@@ -109,6 +114,8 @@ Dev-OU
 
 This policy ensures security logs cannot be disabled.
 
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/88540f0d-e390-4d4e-9968-85e6e37b419e" />
+
 ### Policy JSON
 
 ```json
@@ -139,6 +146,8 @@ Root
 # 3. Restrict AWS Regions
 
 This policy restricts resource creation to an approved region.
+
+![WhatsApp Image 2026-03-15 at 4 02 40 PM](https://github.com/user-attachments/assets/aeed7ca1-689b-4b4f-95f6-c57ab65c4775)
 
 Approved Region Example:
 
@@ -180,6 +189,8 @@ Root
 Policy enforcement was tested in the **dev-account**.
 
 When attempting to perform restricted actions such as launching EC2 instances, AWS returned the following error:
+
+![WhatsApp Image 2026-03-15 at 10 34 33 PM](https://github.com/user-attachments/assets/638054df-45eb-4b5d-830e-6befa2afde39)
 
 ```
 Access Denied
