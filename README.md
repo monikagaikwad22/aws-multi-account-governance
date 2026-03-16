@@ -185,6 +185,12 @@ Root
 ```
 
 ---
+# **Test 1 – EC2 Restriction**
+# 1. Open Swich role
+# 2. Login to the Dev Account.
+
+<img width="1920" height="1008" alt="Amazon Web Services Switch Role - Google Chrome 3_15_2026 10_23_47 PM" src="https://github.com/user-attachments/assets/198b3012-0ac5-4eec-b00e-f1ff3d8d413a" />
+
 
 # Validation
 
@@ -198,10 +204,14 @@ When attempting to perform restricted actions such as launching EC2 instances, A
 Access Denied
 explicit deny in service control policy
 ```
+# **Test 2 – CloudTrail Protection**
+
+<img width="1920" height="1008" alt="Instances _ EC2 _ eu-north-1 - Google Chrome 3_16_2026 10_24_33 PM" src="https://github.com/user-attachments/assets/3e4a6940-66b2-4148-b061-f1681ac543bb" />
 
 This confirms that the governance policies are successfully enforced.
 
 ---
+
 
 # Risk Mitigation Strategy
 
