@@ -223,13 +223,7 @@ This confirms that the governance policies are successfully enforced.
 
 ---
 
-# Governance Benefits
 
-* Centralized governance across AWS accounts
-* Improved security enforcement
-* Better cost management
-* Environment isolation
-* Strong compliance controls
 
 ---
 
