@@ -70,7 +70,9 @@ Create the following OUs:
 | Testing     | test-account |
 | Production  | prod-account |
 
-Move accounts into their respective Organizational Units.
+Move accounts DEV-OU into dev-account Organizational Units.
+Move accounts TEST-OU into test-account Organizational Units.
+Move accounts PROD-OU into prod-account Organizational Units.
 
 ---
 
